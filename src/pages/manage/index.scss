@@ -1,0 +1,66 @@
+.manage{
+    background: #fff;
+    font-size: 14Px;
+    .title{
+       display: inline-block;
+       width:100%;
+       height: 80px;
+       font-size: 14Px;
+       line-height:80px;
+       padding-left: 20px;
+       background: #EDEDED;
+       i{
+        position: absolute;
+        top:18px;
+        right:10px;
+        color: #000;
+      }
+    }
+    .searchArea{
+        height: 150px;
+        .select{
+            position: relative;
+            i{
+                position: absolute;
+                right: 10px;
+                top:8px;
+            }
+            .picker{
+                margin-left: 15px;
+            }
+        }
+    }
+    .contents{
+        position:fixed;
+        top:230px;
+        bottom:0;
+        left:0;
+        right:0;
+        background: #EDEDED;
+        overflow:scroll;
+        -webkit-overflow-scrolling: touch;
+        .dn{
+            display: none
+        }
+        .at-card{
+            margin:5px 0;
+            
+        }
+        .at-card__header{
+            display: none;
+        }
+        .right{
+            text-align: right;
+        }
+        .at-button--secondary {
+            background-color: red;
+            color: #fff;
+        }
+        .taro-text{
+            font-weight: bold;
+        }
+        .blue{
+            color:blue 
+        }
+    }
+}
